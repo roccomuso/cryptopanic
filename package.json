@@ -1,0 +1,33 @@
+{
+  "name": "cryptopanic",
+  "version": "1.0.0",
+  "description": "Node.js unofficial client to CryptoPanic.com API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/cryptopanic.git"
+  },
+  "keywords": [
+    "cryptopanic",
+    "crypto",
+    "client",
+    "api",
+    "news",
+    "aggregator",
+    "cryptocurrencies"
+  ],
+  "author": "Rocco Musolino (@roccomuso)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roccomuso/cryptopanic/issues"
+  },
+  "homepage": "https://github.com/roccomuso/cryptopanic#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "node-fetch": "^2.0.0",
+    "qs": "^6.5.1"
+  }
+}
