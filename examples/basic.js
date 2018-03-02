@@ -1,4 +1,4 @@
-const Cryptopanic = require('./')
+const Cryptopanic = require('../')
 
 let cp = new Cryptopanic({
   auth_token: process.env.AUTH_TOKEN
