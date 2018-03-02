@@ -1,7 +1,7 @@
 const Cryptopanic = require('./')
 
 let cp = new Cryptopanic({
-  auth_token: '<YOUR TOKEN>'
+  auth_token: process.env.AUTH_TOKEN
 })
 
 cp.currencies(['BTC', 'ETH', 'XRP'])
