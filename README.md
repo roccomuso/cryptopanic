@@ -12,7 +12,7 @@
 
 ```javascript
 const Cryptopanic = require('cryptopanic')
-let cp = new Cryptopanic()
+let cp = new Cryptopanic({auth_token: '<YOUR AUTH TOKEN>'})
 
 cp.currencies(['BTC', 'XRP'])
   .filter('bullish')
