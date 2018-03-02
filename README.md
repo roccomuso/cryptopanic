@@ -22,16 +22,19 @@ cp.currencies(['BTC', 'XRP'])
 
 /* // Sample result:
 
-[ { domain: 'ambcrypto.com',
-    votes: { negative: 0, positive: 10, important: 8 },
-    source: { domain: 'ambcrypto.com', title: 'AMBCrypto', path: null },
-    title: 'Ripple’s xRapid to be used by Cambridge for faster global payments – market sentiment turns bullish!',
-    published_at: '2018-03-01T16:51:03Z',
-    slug: 'Ripples-xRapid-to-be-used-by-Cambridge-for-faster-global-payments-market-sentiment-turns-bullish',
+[   { domain: 'r/Bitcoin',
+    votes: { negative: 0, positive: 11, important: 6 },
+    source:
+     { domain: 'reddit.com',
+       title: 'r/Bitcoin Reddit',
+       path: 'r/bitcoin' },
+    title: 'Bitfinex Decrease BTC Withdrawal Fees By 25%',
+    published_at: '2018-03-01T21:00:44.575689Z',
+    slug: 'Bitfinex-Decrease-BTC-Withdrawal-Fees-By-25',
     currencies: [ [Object] ],
-    id: 1244292,
-    created_at: '2018-03-01T16:51:03Z',
-    url: 'https://cryptopanic.com/news/1244292/Ripples-xRapid-to-be-used-by-Cambridge-for-faster-global-payments-market-sentiment-turns-bullish' },
+    id: 1245186,
+    created_at: '2018-03-01T21:00:44.575689Z',
+    url: 'https://cryptopanic.com/news/1245186/Bitfinex-Decrease-BTC-Withdrawal-Fees-By-25' },
 ...
 ]
 */
@@ -40,6 +43,8 @@ cp.currencies(['BTC', 'XRP'])
 ```
 
 ### Methods
+
+\* Get your *auth token* from the [cryptopanic API page](https://cryptopanic.com/about/api/).
 
 - `auth(<string>)`: Add your Auth token.
 - `currencies(<Array>)`: Filter by currencies symbol (ex. `BTC`, `ETH`, `XRP`).
