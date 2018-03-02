@@ -41,9 +41,9 @@ cp.currencies(['BTC', 'XRP'])
 
 ### Methods
 
-- `auth(...)`: Add your Auth token.
-- `currencies([..])`: Filter by currencies symbol (ex. BTC, ETH, XRP).
-- `filter()`: You can use any of UI filters using one of this filter: `trending|hot|bullish|bearish|important|saved|lol`.
+- `auth(<string>)`: Add your Auth token.
+- `currencies(<Array>)`: Filter by currencies symbol (ex. `BTC`, `ETH`, `XRP`).
+- `filter(<string>)`: You can use any of UI filters using one of this filter: `trending|hot|bullish|bearish|important|saved|lol`.
 - `public()`: To enable public API.
 - `following()`: Filter only 'Following' feed (private only).
 - `fetchPosts()`: Get the posts using your filtering rules and api token.
