@@ -30,7 +30,7 @@
   "homepage": "https://github.com/roccomuso/cryptopanic#readme",
   "dependencies": {
     "debug": "^3.1.0",
-    "node-fetch": "^2.0.0",
-    "qs": "^6.5.1"
+    "node-fetch": "^2.2.0",
+    "qs": "^6.5.2"
   }
 }
