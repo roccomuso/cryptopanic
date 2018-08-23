@@ -6,6 +6,8 @@ let cp = new Cryptopanic({
 
 cp.currencies(['BTC', 'ETH', 'XRP'])
  .filter('bullish')
+ .addRegion('en')
+ .addRegion('it')
  .fetchPosts()
  .then(console.log)
  .catch(console.error)

@@ -48,6 +48,7 @@ cp.currencies(['BTC', 'XRP'])
 
 - `auth(<string>)`: Add your Auth token.
 - `currencies(<Array>)`: Filter by currencies symbol (ex. `BTC`, `ETH`, `XRP`).
+- `addRegion(<String>)`: Filter by regions. Available regions: en, de, es, it (Italiano), pt (Português), ru (Русский). You can add multiple regions.
 - `filter(<string>)`: You can use any of UI filters using one of this filter: `trending` `hot` `bullish` `bearish` `important` `saved` `lol`.
 - `public()`: To enable public API.
 - `following()`: Filter only 'Following' feed (private only).
