@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/roccomuso/cryptopanic#readme",
   "dependencies": {
-    "debug": "^3.1.0",
-    "node-fetch": "^2.2.0",
-    "qs": "^6.5.2"
+    "debug": "^4.1.0",
+    "node-fetch": "^2.3.0",
+    "qs": "^6.6.0"
   }
 }
