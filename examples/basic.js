@@ -1,7 +1,11 @@
 const Cryptopanic = require('../')
+const assert = require('assert')
+
+const token = process.env.AUTH_TOKEN
+assert(token, 'Provide a AUTH_TOKEN=... through env')
 
 let cp = new Cryptopanic({
-  auth_token: process.env.AUTH_TOKEN
+  auth_token: token
 })
 
 cp.currencies(['BTC', 'ETH', 'XRP'])
