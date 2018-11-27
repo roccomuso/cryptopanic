@@ -1,4 +1,4 @@
-# cryptopanic [![NPM Version](https://img.shields.io/npm/v/cryptopanic.svg)](https://www.npmjs.com/package/cryptopanic) ![node](https://img.shields.io/node/v/cryptopanic.svg) [![Dependency Status](https://david-dm.org/roccomuso/cryptopanic.png)](https://david-dm.org/roccomuso/cryptopanic) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# cryptopanic [![NPM Version](https://img.shields.io/npm/v/cryptopanic.svg)](https://www.npmjs.com/package/cryptopanic) ![node](https://img.shields.io/node/v/cryptopanic.svg) [![Dependency Status](https://david-dm.org/roccomuso/cryptopanic.png)](https://david-dm.org/roccomuso/cryptopanic) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [<img width="100" align="right" src="https://github.com/roccomuso/cryptopanic/raw/master/comet.svg?raw=true" alt="keyv">](https://github.com/roccomuso/cryptopanic)
 
 > Node.js unofficial client to CryptoPanic.com API
 
